@@ -11,7 +11,7 @@ class PremierControleur extends Controller
     }
 
     public function APropos() {
-        return "<h2>A PROPOS</h2>";
+        return view("apropos");
     }
 
     public function p($id) {
