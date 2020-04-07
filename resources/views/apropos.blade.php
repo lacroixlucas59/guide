@@ -2,11 +2,6 @@
 @extends('layouts.template')
 
 @section('content')
-
-    <h1>A propos</h1>
-        <p>bla bla</p>
-@endsection
-=======
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -44,4 +39,4 @@ Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, disp
         </div> 
     </body>
 </html>
->>>>>>> 0dc684d6b5ef83d68f8e0930116c989845b3805d
+@endsection
