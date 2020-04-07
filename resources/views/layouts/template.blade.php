@@ -1,8 +1,8 @@
 <nav>
     <ul>
-        <li><a href="/"> Home </a></li>
-        <li><a href="/apropos"> À propos </a></li>
-        <li><a href="/Guide"> Guide </a></li>
+        <li><a href="/"> Accueil </a></li>
+        <li><a href="/a-propos"> À propos </a></li>
+        <li><a href="/ag"> Liste des audioguides </a></li>
     </ul>
 </nav>
 
