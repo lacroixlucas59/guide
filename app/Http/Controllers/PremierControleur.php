@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\ag;
 
 class PremierControleur extends Controller
 {
@@ -15,10 +16,16 @@ class PremierControleur extends Controller
     }
 
     public function ag($id) {
+
+        dd(ag::find($id));
+
         return view("ag", ["id" => $id]);
     }
 
     public function AGListe() {
-        return view("agliste");
+
+        $agl = ag::all();
+
+        return view("agliste",  ["agl" => $agl]);
     }
 }

@@ -168,7 +168,6 @@ body.nav-active{
 
 
         </style>
-   
 
 <div class="menu-icon">
 	<span class="menu-icon__line menu-icon__line-left"></span>
@@ -179,10 +178,9 @@ body.nav-active{
 <div class="nav">
 	<div class="nav__content">
 		<ul class="nav__list">
-			<li class="/">Accueil</li>
-			<li class="/Apropos">À propos</li>
-			<li class="/ag">Audioguides</li>
-			<li class="/welcome">Contact</li>
+        <li><a href="/"> Accueil </a></li>
+        <li><a href="/a-propos"> À propos </a></li>
+        <li><a href="/ag"> Liste des audioguides </a></li>
 		</ul>
 	</div>
 </div>
