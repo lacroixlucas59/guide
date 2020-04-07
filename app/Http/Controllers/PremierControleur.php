@@ -24,8 +24,8 @@ class PremierControleur extends Controller
 
     public function AGListe() {
 
-        dd(ag::all());
+        $agl = ag::all();
 
-        return view("agliste");
+        return view("agliste",  ["agl" => $agl]);
     }
 }
