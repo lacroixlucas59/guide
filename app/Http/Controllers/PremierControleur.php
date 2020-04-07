@@ -14,7 +14,11 @@ class PremierControleur extends Controller
         return view("apropos");
     }
 
-    public function p($id) {
-        return "<h2>guide de $id</h2>";
+    public function ag($id) {
+        return view("ag", ["id" => $id]);
+    }
+
+    public function AGListe() {
+        return view("agliste");
     }
 }
