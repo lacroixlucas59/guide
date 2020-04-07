@@ -80,6 +80,15 @@
             @endif
 
             <div class="content">
+            <ul class="nav">
+            <li class="nav-item">
+            <a class="nav-link-active" href="#">Home</a></li>
+            <li class="nav-item">
+            <a class="nav-link-" href="#">À propos</a></li>
+            <li class="nav-item">
+            <a class="nav-link-" href="#">Guide</a></li></ul>
+
+
                 <div class="title m-b-md">
                     Laravel
                 </div>
