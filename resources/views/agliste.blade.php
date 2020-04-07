@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Page à propos provisoire</title>
+        <title>Audio guide ─ Guide touristique d'Espagne</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -18,13 +18,12 @@
             <div class="margium">
                 <div class="espacium" style="margin-bottom: 0px;">
                         <div class="vide"></div>
-                        <h1 class="c">Page à proppos provisoire</h1>
+                        <h1 class="c">Page provisoire de la liste des audio guide</h1>
                         <div class="vide"></div>
                 </div>
             </div> 
         </section>
         <div class="margium-s">
-
             <p>
                 Paphius quin etiam et Cornelius senatores, ambo venenorum artibus pravis se polluisse confessi, eodem pronuntiante Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem aruspicem dedit, in negotio eius nullo sacramento constrictus.
 
