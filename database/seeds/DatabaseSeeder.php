@@ -12,5 +12,40 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+
+        DB::table('ag')->insert([
+            'titre' => Str::random(15),
+            'image' => "img/premiere.jpg",
+            'audio' => Str::random(10).'.mp3',
+            'contenu' => Str::random(105),     
+        ]);
+
+        DB::table('ag')->insert([
+            'titre' => Str::random(15),
+            'image' => "img/premiere.jpg",
+            'audio' => Str::random(10).'.mp3',
+            'contenu' => Str::random(105),     
+        ]);
+
+        DB::table('ag')->insert([
+            'titre' => Str::random(15),
+            'image' => "img/premiere.jpg",
+            'audio' => Str::random(10).'.mp3',
+            'contenu' => Str::random(105),     
+        ]);
+
+        DB::table('ag')->insert([
+            'titre' => Str::random(15),
+            'image' => "img/premiere.jpg",
+            'audio' => Str::random(10).'.mp3',
+            'contenu' => Str::random(105),     
+        ]);
+
+        DB::table('ag')->insert([
+            'titre' => Str::random(15),
+            'image' => "img/premiere.jpg",
+            'audio' => Str::random(10).'.mp3',
+            'contenu' => Str::random(105),     
+        ]);
     }
 }
