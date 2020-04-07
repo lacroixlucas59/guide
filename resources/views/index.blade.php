@@ -102,9 +102,4 @@
         </section>
     </body>
 </html>
-<ul>
-    @foreach($guides as $id => $titre)
-            <li><a href="/guide/{{$id}}">{{$titre}}</a></li>
-    @endforeach
-</ul>
 @endsection
