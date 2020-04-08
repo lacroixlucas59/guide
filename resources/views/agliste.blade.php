@@ -29,7 +29,7 @@
         <div class="margium">
             <div class='liste'>
                 @foreach ($agl as $agl)
-                <a href="{{ $agl -> id }}" target="_blank">
+                <a href="ag/{{ $agl -> id }}" target="_blank">
                     <img class='visuelvote' src='../{{ $agl -> image }}' alt='illustration'/>
                     <span>{{ $agl -> titre }}</span>
                 </a>
