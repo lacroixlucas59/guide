@@ -17,7 +17,7 @@
     </head>
     <body>
         <header>Guide touristique d'Espagne</header>
-        <section id="presentation">
+        <section id="presentation" style="background-image:url('img/premiere.jpg');">
             
             <div class="surcouche"></div>
             <div class="margium">
