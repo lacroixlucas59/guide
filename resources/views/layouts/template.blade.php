@@ -103,9 +103,9 @@
                Footer Menu
               </h3>
               <ul class="menu">
-               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="/">Accueil</a></li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="/a-propos">À propos</a></li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="/agliste">Liste des audioguides
+               <li ><a href="/">Accueil</a></li>
+               <li ><a href="/a-propos">À propos</a></li>
+               <li ><a href="/agliste">Liste des audioguides
           </a></a></li>
               </ul>
              </div>
