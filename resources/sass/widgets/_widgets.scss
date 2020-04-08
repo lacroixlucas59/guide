@@ -1,0 +1,15 @@
+.widget {
+  margin: 0 0 1.5em;
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
+}
+
+.widget-single-area {
+  padding: 15px 0;
+}
+/*--------------------------------------------------------------
+## Contact Form 7
+--------------------------------------------------------------*/
+@import "wpcf7";

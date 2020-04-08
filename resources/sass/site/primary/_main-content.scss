@@ -1,0 +1,9 @@
+#content {
+  max-width: 1200px;
+  padding: 0 15px;
+  background-color: var(--background1);
+  margin: 0 auto;
+  &[tabindex="-1"]:focus {
+    outline: 0;
+  }
+}

@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+  &:before, &:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    box-sizing: inherit;
+  }
+}
+
+body {
+  background: var(--background1);
+  /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+blockquote {
+  &:before, &:after {
+    content: "";
+  }
+}
+
+q {
+  &:before, &:after {
+    content: "";
+  }
+}
+
+hr {
+  border: solid 1px;
+  color: var(--text-base);
+  opacity: .2;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {}
+
+@import "lists";
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+figure {
+  margin: 1em 0;
+  /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+@import "tables";

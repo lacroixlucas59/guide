@@ -1,0 +1,23 @@
+ul, ol {}
+
+ul {
+  list-style: disc;
+
+  li {
+		font-size: var(--F-p);
+  }
+  > a {
+    font-size: var(--F-p);
+  }
+
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > {
+  ul, ol {
+    margin-bottom: 0;
+  }
+}	

@@ -1,0 +1,15 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: inherit;
+	font-family: $font2;
+	@include font-size(1);
+	line-height: 1.5;
+}
+
+@import "headings";
+
+@import "copy";

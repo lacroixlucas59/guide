@@ -1,0 +1,181 @@
+.wptg-image-background {
+  background-size: cover;
+  background-position: center center;
+}
+
+.wptg-excerpt {
+  font-size: var(--F-p);
+  p, ul {
+    margin: 0;
+  }
+}
+
+.wptg-main-section {
+  h1, h2 {
+    font-family: var(--font1);
+    text-align: center;
+    margin: 10px auto;
+  }
+  .subtitle {
+    font-family: var(--font2);
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
+#wptg-main-content {
+  padding: 0;
+  background-color: var(--background1);
+  color: var(--text-base);
+}
+
+#wptg-main-page {
+  margin: 0;
+}
+
+.postpage-content {
+  padding: 35px 15px;
+}
+
+.wptg-title {
+  font-family: var(--font1);
+}
+
+.wptg-descripion {
+  font-family: var(--font2);
+}
+
+.entry-title {
+  font-family: var(--font1);
+  color: var(--heading-base);
+}
+
+.entry-meta {
+  .entry-date, .author.vcard {
+    font-weight: bold;
+  }
+}
+
+.wptg-postmeta {
+  @wptg(displayMeta);
+}
+.wptg-tagmeta {
+  @wptg(displayTag);
+}
+
+.wrapped_page {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.49);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.49);
+  box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.49);
+}
+
+.container.wrapped_page {
+  padding: 0;
+}
+
+#navbar_container {
+  position: relative;
+  z-index: 4;
+  &.wptg-fixed-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    height: auto;
+    z-index: 100;
+  }
+}
+
+.wptg-fixed-nav .wptg-navbar {
+  border-bottom: solid 2px var(--color1);
+  top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #editable_page {
+    padding: 0;
+  }
+  .container.wrapped_page {
+    max-width: 100%;
+    width: 100%;
+  }
+  /* h1 { 
+    font-size: 1.5em; 
+    font-weight: normal; 
+  } */
+  /* h2 { 
+    font-size: var(--F-h2); 
+    font-weight: normal; 
+  } */
+      /* h3 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+      h4 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+      h5 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+      h6 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+
+      p {
+        font-size: .8em;
+        line-height: 1.7;
+        color: inherit;
+      } */
+}
+
+@media screen and (max-width: 992px) {
+  /* h1 { 
+    font-size: 2em; 
+    font-weight: normal; 
+  } */
+  /* h2 { 
+    font-size: var(--F-h2); 
+    font-weight: normal; 
+  } */
+      /* h3 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+      h4 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+      h5 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+      h6 { 
+        font-size: .8em; 
+        font-weight: normal; 
+      }
+
+      p {
+        font-size: .8em;
+        line-height: 1.7;
+        color: inherit;
+      } */
+}
+
+/* submenu for right navbar */
+
+/*# sourceMappingURL=style.css.map */
+
+/* Templates */
+/* No Sidebar Template */
+
+.entry-header-no-sidebar {
+  .entry-title, .entry-meta {
+    text-align: center;
+  }
+}
+
+/* No Sidebar Template */
+/* Templates */

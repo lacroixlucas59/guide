@@ -1,0 +1,24 @@
+input {
+  &[type="text"], &[type="email"], &[type="url"], &[type="password"], &[type="search"], &[type="number"], &[type="tel"], &[type="range"], &[type="date"], &[type="month"], &[type="week"], &[type="time"], &[type="datetime"], &[type="datetime-local"], &[type="color"], &[type="text"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="password"]:focus, &[type="search"]:focus, &[type="number"]:focus, &[type="tel"]:focus, &[type="range"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="week"]:focus, &[type="time"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="color"]:focus {
+    color: #2C3E50;
+  }
+}
+
+textarea:focus {
+  color: #2C3E50;
+}
+
+select {
+  border: 1px solid #2C3E50;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 0;
+  padding: 4px 9px;
+  color: var(--background1);
+  background: var(--color1);
+}

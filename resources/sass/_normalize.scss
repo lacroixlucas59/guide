@@ -1,0 +1,210 @@
+:root {
+  --color1: $color1/* color1 */;
+  --color2: $color2/* color2 */;
+  --color3: $color3/* color3 */;
+  --background1: $background1/* background1 */;
+  --background2: $background2/* background2 */;
+  --text-base: $text-base/* text-base */;
+  --heading-base: $heading-base/* heading-base */;
+  --font1: $font1/* font1 */;
+  --font2: $font2/* font2 */;
+  --F-h1: $F-h1/* F-h1 */;
+  --F-h2: $F-h2/* F-h2 */;
+  --F-h3: $F-h3/* F-h3 */;
+  --F-h4: $F-h4/* F-h4 */;
+  --F-h5: $F-h5/* F-h5 */;
+  --F-h6: $F-h6/* F-h6 */;
+  --F-p: $F-p/* F-p */;
+  --fontsp: $F-p/* F-p */;
+  --fontgen: $F-p/* F-p */;
+  
+  font-size: calc(15px + (16 - 14) * ((100vw - 300px) / (1000 - 300)));
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color1);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--background1);
+  min-height: 100%;
+  color: var(--text-base);
+  margin: 0 auto;
+  max-width: 2100px;
+}
+
+html {
+  font-family: var(--font1);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  min-height: 100%;
+  /* background-color: #fff; */
+}
+
+#main_page {
+  background-color: var(--background1);
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: var(--font2);
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+  text-transform: none;
+}
+
+select {
+  text-transform: none;
+}
+
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input {
+  &[type="reset"], &[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  color: var(--text-base);
+  line-height: normal;
+  &[type="checkbox"], &[type="radio"] {
+    color: var(--text-base);
+    box-sizing: border-box;
+    padding: 0;
+  }
+  &[type="number"] {
+    &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+      color: var(--text-base);
+      height: auto;
+    }
+  }
+  &[type="search"] {
+    &::-webkit-search-cancel-button, &::-webkit-search-decoration {
+      color: var(--text-base);
+      -webkit-appearance: none;
+    }
+  }
+}
+
+fieldset {
+  color: var(--text-base);
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+textarea {
+  color: var(--text-base);
+  overflow: auto;
+}
+
+optgroup {
+  color: var(--text-base);
+  font-weight: var(--fontweight2);
+}
+
+table {
+  color: var(--text-base);
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+span {
+  color: var(--text-base);
+}
