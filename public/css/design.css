@@ -129,6 +129,20 @@ img.visuelvote {
     right: 50px;
     cursor: pointer;
 }
+footer {
+    margin:35px 15px 20px 15px;
+    color: #ababab;
+   font-size: smaller;
+    text-align: center;
+}
+.sousligne {
+    width: 146px;
+    margin-bottom: 18px;
+    height: 1px; 
+    opacity: 0.7;
+    margin: 5px auto;
+    background-color: #ababab;
+}
 @media (max-width: 1010px), handheld {
     .liste {
         max-width: 670px;
