@@ -17,9 +17,9 @@ class PremierControleur extends Controller
 
     public function ag($id) {
 
-        dd(ag::find($id));
+        $agn = ag::find($id);
 
-        return view("ag", ["id" => $id]);
+        return view("ag", ["agn" => $agn]);
     }
 
     public function AGListe() {
