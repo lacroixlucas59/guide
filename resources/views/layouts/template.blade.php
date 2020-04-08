@@ -5,7 +5,6 @@
     <title>Guide touristique d'Espagne</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">   
     <meta name="description" content="laravel" />
-    <meta name="author" content="lpCreaweb20192020" />
             
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -59,7 +58,7 @@
          </li>
         </ul>
         <a class="navbar-brand" style="margin-right:15;" href="#"><div class="navbar-brand-icon">
-            <text class="title_brand" transform="matrix(1 0 0 1 48 25)">TravelBlog</text>
+            <text class="title_brand" transform="matrix(1 0 0 1 48 25)">Travel</text>
             <path class="element_inner" d="M33.6,24.5c0.9,0,2.3,0.8,3.6,1.9V15.9H8.3v20.5
 		C13.2,35.6,30.3,24.5,33.6,24.5z M13.2,18.4c1.3,0,2.4,1.1,2.4,2.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4
 		C10.8,19.5,11.8,18.4,13.2,18.4z" />
@@ -104,10 +103,10 @@
                Footer Menu
               </h3>
               <ul class="menu">
-               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="http://demo.vivathemes.com/themes/elixir/">Home</a></li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://demo.vivathemes.com/themes/adagio/blog/">Blog</a></li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://demo.vivathemes.com/themes/adagio/portfolio/">Portfolio</a></li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://demo.vivathemes.com/themes/adagio/contact/">Contact</a></li>
+               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="/">Accueil</a></li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="/a-propos">À propos</a></li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="/agliste">Liste des audioguides
+          </a></a></li>
               </ul>
              </div>
             </div>

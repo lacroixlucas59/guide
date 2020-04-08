@@ -116,3 +116,44 @@ img.visuelvote {
         max-width: 330px;
     }
  }
+
+   
+  
+  /* NAVBAR BRAND ICON */
+  .navbar-brand-icon .element_inner {
+    fill: var(--color1);
+  }
+  
+  .navbar-brand-icon .element_outer {
+    fill: var(--color2);
+  }
+  
+  .navbar-brand-icon .element_font {
+    fill: var(--background1);
+  }
+  
+  .navbar-brand-icon .title_brand,
+  .navbar-brand-icon .title_brand tspan {
+    font-family: var(--font1);
+  }
+  
+  .navbar-brand-icon .slogan_brand,
+  .navbar-brand-icon .slogan_brand tspan {
+    font-family: var(--font2);
+  }
+  /* NAVBAR BRAND ICON */
+  
+  body {
+    background-image: url('img/dummy/background.jpg')!Important;
+  }
+  
+  
+      
+  ::-webkit-scrollbar {
+    width: 3px; }
+  
+  ::-webkit-scrollbar-track {
+    background: #ddd; }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--color1); }
