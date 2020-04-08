@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="plugins/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css" />
-    <link href="{{ asset('css/design.css') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>

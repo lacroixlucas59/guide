@@ -3,7 +3,7 @@
 @section('content')
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">
        
     </head>
     <body>
