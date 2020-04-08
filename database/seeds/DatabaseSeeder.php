@@ -16,35 +16,35 @@ class DatabaseSeeder extends Seeder
         DB::table('ag')->insert([
             'titre' => Str::random(15),
             'image' => "img/premiere.jpg",
-            'audio' => Str::random(10).'.mp3',
+            'audio' => 'teste.mp3',
             'contenu' => Str::random(105),     
         ]);
 
         DB::table('ag')->insert([
             'titre' => Str::random(15),
             'image' => "img/premiere.jpg",
-            'audio' => Str::random(10).'.mp3',
+            'audio' => 'teste.mp3',
             'contenu' => Str::random(105),     
         ]);
 
         DB::table('ag')->insert([
             'titre' => Str::random(15),
             'image' => "img/premiere.jpg",
-            'audio' => Str::random(10).'.mp3',
+            'audio' => 'teste.mp3',
             'contenu' => Str::random(105),     
         ]);
 
         DB::table('ag')->insert([
             'titre' => Str::random(15),
             'image' => "img/premiere.jpg",
-            'audio' => Str::random(10).'.mp3',
+            'audio' => 'teste.mp3',
             'contenu' => Str::random(105),     
         ]);
 
         DB::table('ag')->insert([
             'titre' => Str::random(15),
             'image' => "img/premiere.jpg",
-            'audio' => Str::random(10).'.mp3',
+            'audio' => 'teste.mp3',
             'contenu' => Str::random(105),     
         ]);
     }
