@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
+
     <head>
     <title>Guide touristique d'Espagne</title>
-    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no, target-densitydpi=device-dpi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
     <meta name="description" content="laravel" />
     <meta name="author" content="lpCreaweb20192020" />
             
