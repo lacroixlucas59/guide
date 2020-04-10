@@ -125,7 +125,7 @@ img.visuelvote {
     background-image: url(../img/lecteur.svg);
     background-size: 60px;
     position: absolute;
-    top: -50px;
+    top: -70px;
     right: 50px;
     cursor: pointer;
 }
