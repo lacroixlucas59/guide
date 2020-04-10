@@ -152,4 +152,11 @@ footer {
     .liste {
         max-width: 330px;
     }
+    .margeheader {
+        display:flex;
+        flex-direction: column;
+    }
+    .margeheader div {
+        margin: 15px 0px;
+    }
  }
