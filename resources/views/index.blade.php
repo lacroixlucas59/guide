@@ -10,7 +10,7 @@
                         <h1>Découvrez nos audioguide sur l'Espagne</h1>
                         <p>Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum. Pro consule regeret Carthaginiensibus victus inopia iam, postea cum provenisset segetum copia, integre sine ulla restituit mora.</p>
                         <div class="incitation">
-                            <a class="plein" href="#1">Accéder aux audioguides</a>
+                            <a class="plein" href="/ag">Accéder aux audioguides</a>
                             <a class="ligne" href="/a-propos">En savoir plus</a>
                         </div>
                         <div class="vide"></div>
