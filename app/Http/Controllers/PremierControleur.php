@@ -14,7 +14,7 @@ class PremierControleur extends Controller
     public function APropos() {
         return view("apropos");
     }
-
+    
     public function ag($id) {
 
         $agn = ag::find($id);
@@ -27,5 +27,9 @@ class PremierControleur extends Controller
         $agl = ag::all();
 
         return view("agliste",  ["agl" => $agl]);
+    }
+
+    public function creer() {
+        return view("creer");
     }
 }
