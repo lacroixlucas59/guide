@@ -1,5 +1,6 @@
 @extends('layouts.template')
 @section('content')
+<<<<<<< HEAD
           <!-- <section id="presentation" style="background-image:url('img/premiere.jpg');"> -->
              <!-- Hero Section Begin -->
     <section class="hero-section set-bg" style="background-image:url('img/premiere.jpg');">
@@ -13,6 +14,22 @@
                         <a href="#1" class="primary-btn">Accéder aux audioguides</a>
                         <a href="/a-propos" class="primary-btn">En savoir plus</a>
                     </div>
+=======
+        <section id="presentation" style="background-image:url('img/premiere.jpg');">
+            
+            <div class="surcouche"></div>
+            <div class="margium">
+                <div class="espacium" style="margin-bottom: 0px;">
+                        <div class="vide"></div>
+                        <h1>Découvrez nos audioguide sur l'Espagne</h1>
+                        <p>Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum. Pro consule regeret Carthaginiensibus victus inopia iam, postea cum provenisset segetum copia, integre sine ulla restituit mora.</p>
+                        <div class="incitation">
+                            <a class="plein" href="/ag">Accéder aux audioguides</a>
+                            <a class="ligne" href="/a-propos">En savoir plus</a>
+                        </div>
+                        <div class="vide"></div>
+                        <div class="vide"></div>
+>>>>>>> 8df4dc11fd72b9783ff1182f3b1e5b49bc4bab9a
                 </div>
             </div>
         </div>

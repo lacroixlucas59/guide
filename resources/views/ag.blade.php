@@ -11,7 +11,7 @@
                 </div>
             </div> 
         </section>
-        <div style="position:relative">
+        <div style="position:relative; margin-top:40px;">
         <div class="margium-s">
             <div id="lecteur" onclick="joue()"></div>
             <div style="display: none;">
