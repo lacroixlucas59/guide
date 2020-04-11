@@ -28,6 +28,11 @@
     @yield('content')
 </div>
 
+<div class="margium">
+    <a href="creer">Créer</A>
+        <a href="login">Login</A>
+            <a href="register">Register</A>
+</div>
       <!-- Page footer --> 
     <footer>
         <div class="sousligne"> </div>
