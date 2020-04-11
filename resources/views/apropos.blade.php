@@ -1,27 +1,60 @@
 @extends('layouts.template')
 
 @section('content')
-        <section id="presentation" style="background-image:url('../img/seville.jpg');">
-            
-            <div class="surcouche"></div>
-            <div class="margium">
-                <div class="espacium" style="margin-bottom: 0px;">
-                        <div class="vide"></div>
-                        <h1 class="c">Page à proppos provisoire</h1>
-                        <div class="vide"></div>
+<section class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="breadcrumb-option">
+                        <a href="/">Accueil</a>
+                        <span>À propos</span>
+                    </div>
                 </div>
-            </div> 
-        </section>
-        <div class="margium-s">
-
-            <p>
-                Paphius quin etiam et Cornelius senatores, ambo venenorum artibus pravis se polluisse confessi, eodem pronuntiante Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem aruspicem dedit, in negotio eius nullo sacramento constrictus.
-
-Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti.
-
-Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.
-            </p>
-        </div> 
+            </div>
+        </div>
+    </section>
+  <!-- About Us Section Begin -->
+    <section class="about-us-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="as-pic">
+                    <img src="../img/seville.jpg">    
+                </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="as-text ap-text">
+                        <div class="section-title">
+                            <span>À propos</span>
+                            <h2>Ag</h2>   
+                        </div>
+                        <p class="f-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="s-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod.Tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section Begin -->
+    <section class="callto-section set-bg" data-setbg="../img/premiere.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="ctc-text">
+                        <h2>We Create Trends For The World</h2>
+                        <p>Donec faucibus consequat ante. Mauris eget mi sed ex efficitur porta id non quam. Cras
+                            aliquam turpis tellus, quis laoreet lacus congue sed. Nullam at est quis urna vestibulum
+                            interdum. Praesent auctor leo ut massa ultrices tempor.</p>
+                        <a href="#" class="primary-btn ctc-btn">Work With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
     </body>@endsection
 </html>
 

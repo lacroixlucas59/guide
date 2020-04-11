@@ -28,4 +28,17 @@ class PremierControleur extends Controller
 
         return view("agliste",  ["agl" => $agl]);
     }
+    public function create() {
+        return view("create");
+    }
+
+    public function store(Request $request) {
+        $ag=new Ag();
+        $ag->titre=$request->input( 'titre');
+        $ag->image=$request->input( 'image');
+        $ag->audio=$request->input( 'audio');
+        $ag->save(); //insert into images...
+        return redirect('/agl');
+        
+    }
 }

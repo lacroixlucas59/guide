@@ -1,18 +1,21 @@
 @extends('layouts.template')
 
 @section('content')
-        <section id="presentation" style="background-image:url('../img/seville.jpg');">
-            
-            <div class="surcouche"></div>
-            <div class="margium">
-                <div class="espacium" style="margin-bottom: 0px;">
-                        <div class="vide"></div>
-                        <h1 class="c">Nos audioguides</h1>
-                        <div class="vide"></div>
-                </div>
-            </div> 
-        </section>
-        <div class="margium">
+    <!-- Member Section Begin -->
+    <section class="member-section spad ap-member">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title"><br><br>
+                        <span>Audioguides</span>
+                        <h2>Top Audioguides</h2>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+    <!-- Member Section End -->
+    <div class="margium">
             <div class='liste'>
                 @foreach ($agl as $agl)
                 <a href="ag/{{ $agl -> id }}" target="_blank">
@@ -21,6 +24,7 @@
                 </a>
                 @endforeach
             </div>
-        </div> 
+            </div>
+    </section>
     </body>@endsection
 </html>
