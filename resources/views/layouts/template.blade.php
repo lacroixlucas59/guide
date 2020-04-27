@@ -105,4 +105,14 @@
     <script src="js/main.js"></script>
     </body>
 </html>
+<div class="margium">
+    <a href="creer">Créer</A>
+        <a href="login">Login</A>
+            <a href="register">Register</A>
+</div>
+      <!-- Page footer --> 
+    <footer>
+        <div class="sousligne"> </div>
+        <p>Tous droits réservés · Maria Morales, Lucas Lacroix  ·  2020</p>
+    </footer>
 

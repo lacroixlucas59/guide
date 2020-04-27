@@ -14,7 +14,7 @@ class PremierControleur extends Controller
     public function APropos() {
         return view("apropos");
     }
-
+    
     public function ag($id) {
 
         $agn = ag::find($id);
@@ -40,5 +40,26 @@ class PremierControleur extends Controller
         $ag->save(); //insert into images...
         return redirect('/agl');
         
+
+   /* public function  creer() {
+        return view("creer");*/
+    }
+
+    public function tr( Request $request) {
+        // dd($_FILES, $request->file('image'));
+        $name = $request->file('visuel')->hashName();
+        $request->file('visuel')->move("d/", $name);
+        $nema = $request->file('audio')->hashName();
+        $request->file('audio')->move("d/", $nema);
+        $audioguide = new AG();
+        $audioguide -> titre = $request ->input('titre');
+        $audioguide -> contenu = $request ->input('contenu');
+        $audioguide -> audio = "d/".$nema;
+        $audioguide -> image = "d/".$name;
+
+        $audioguide -> save();
+
+
+        return redirect("/");
     }
 }
