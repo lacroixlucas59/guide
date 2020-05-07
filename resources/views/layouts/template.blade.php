@@ -15,11 +15,16 @@
     <body>
         <header>
             <div class="margeheader">
-                <div>Guide touristique d'Espagne</div>
+                <div><a href="{{ url('/') }}">Guide touristique d'Espagne</a></div>
                 <div>
-                    <a href="/">Accueil</a>
-                    <a href="ag">Liste des audioguides</a>
-                    <a href="a-propos">À propos</a>
+                    <a href="{{ url('/ag') }}"> Liste des audioguides </a>
+
+
+                    @if (Auth::check())
+                    <a href="{{ url('/creer') }}">Créer</A>
+                 
+            @endif
+                    <a href="{{ url('/a-propos') }}">À propos</a>
                 </div>
             </div>
     </header>
@@ -27,11 +32,17 @@
     <div>
     @yield('content')
 </div>
-
 <div class="margium">
-    <a href="creer">Créer</A>
-        <a href="login">Login</A>
-            <a href="register">Register</A>
+    <div class="auth">
+    @if (Auth::check())
+            <a href="{{ url('/creer') }}">Créer</A>
+            <a href="{{ url('/logout') }}">Déconnection</A>
+        @else
+            <a href="{{ url('/login') }}">Login</A>
+            <a href="{{ url('/register') }}">Register</A>
+    @endif
+    </div>
+        
 </div>
       <!-- Page footer --> 
     <footer>

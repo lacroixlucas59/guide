@@ -1,7 +1,6 @@
 @extends('layouts.template')
 @section('content')
         <section id="presentation" style="background-image:url('../{{$agn -> image}}');">
-            
             <div class="surcouche"></div>
             <div class="margium">
                 <div class="espacium" style="margin-bottom: 0px;">
