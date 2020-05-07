@@ -1,13 +1,13 @@
 @extends('layouts.template')
 
 @section('content')
-        <section id="presentation" style="background-image:url('../img/seville.jpg');">
+        <section id="presentation" style="background-image:url('../img/apropos.jpg');">
             
             <div class="surcouche"></div>
             <div class="margium">
                 <div class="espacium" style="margin-bottom: 0px;">
                         <div class="vide"></div>
-                        <h1 class="c">Page à proppos provisoire</h1>
+                        <h1 class="c">À propos du site</h1>
                         <div class="vide"></div>
                 </div>
             </div> 

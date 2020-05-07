@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
-        <section id="presentation" style="background-image:url('../img/seville.jpg');">
+        <section id="presentation" style="background-image:url('../img/calle.jpg');">
             
             <div class="surcouche"></div>
             <div class="margium">
