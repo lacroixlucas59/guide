@@ -36,6 +36,7 @@
     <div class="auth">
     @if (Auth::check())
             <a href="{{ url('/creer') }}">Créer</A>
+                <a href="{{ url('/interface') }}">Gestion des audioguides</A>
             <a href="{{ url('/logout') }}">Déconnection</A>
         @else
             <a href="{{ url('/login') }}">Login</A>
