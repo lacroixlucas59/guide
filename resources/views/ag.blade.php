@@ -15,7 +15,7 @@
             <div id="lecteur" onclick="joue()"></div>
             <div style="display: none;">
                 <audio id="musique" controls>
-                    <source src="../../d/{{$agn -> audio}}" type="audio/mp3">
+                    <source src="../../{{$agn -> audio}}">
                 Error
                 </audio>
             </div>
