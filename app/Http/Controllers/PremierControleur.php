@@ -28,6 +28,13 @@ class PremierControleur extends Controller
 
         return view("agliste",  ["agl" => $agl]);
     }
+    
+    public function interface() {
+
+        $agl = ag::all();
+
+        return view("agedit",  ["agl" => $agl]);
+    }
 
     public function creer() {
         return view("creer");
