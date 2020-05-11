@@ -22,6 +22,17 @@ class PremierControleur extends Controller
         return view("ag", ["agn" => $agn]);
     }
 
+    public function Supprimer($id) {
+
+        $asupp = ag::find($id);
+
+        $asupp->delete();
+
+        $agl = ag::all();
+
+        return view("agedit",  ["agl" => $agl]);
+    }
+
     public function AGListe() {
 
         $agl = ag::all();

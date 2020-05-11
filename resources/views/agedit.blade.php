@@ -20,7 +20,7 @@
                         <img class='visuelvote' src='../{{ $agl -> image }}' alt='illustration'/>
                         <span>{{ $agl -> titre }}</span>
                     </a>
-                    <a href="#nan">
+                    <a href="supprimer/{{ $agl -> id }}">
                          <img class="action" src='../{{ 'img/supprimer.svg' }}' alt="#supp"/>
                     </a>
                 </div>
