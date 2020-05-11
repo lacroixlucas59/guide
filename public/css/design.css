@@ -9,7 +9,10 @@ html, body {
 a {
     text-decoration: none;
     color: #dca61d;
-} 
+}
+*{
+    box-sizing: border-box;
+}
 ::selection {
     color: #202020;
     background: #ffe5a3;
@@ -60,6 +63,12 @@ header {
     display: block;
     margin: 0px auto;
     max-width: 500px;
+    position: inherit;
+}
+.margium-m {
+    display: block;
+    margin: 0px auto;
+    max-width: 728px;
     position: inherit;
 }
 h1 {
@@ -133,6 +142,41 @@ img.visuelvote {
     color:#484848;
     padding: 8px 12px;
 }
+
+.listedit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px auto;
+}
+.listedit a {
+    display: flex;
+    align-items: center;
+    color: #202020;
+    font-size: large;
+}
+.elementedit {
+    padding: 12px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: #202020;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 30px 0px rgba(200,200,200,0.28);
+    margin: 15px 0px;
+}
+.listedit img {
+    width: 185px;
+   margin-right: 21px;
+}
+img.action {
+    height: 46px;
+    width: 46px;
+    padding: 3px;
+}
+
 #lecteur {
     height: 60px;
     width: 60px;
