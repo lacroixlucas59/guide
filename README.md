@@ -1,5 +1,5 @@
 
-## Sauvegarde de Guide
+## Memo
 
 
 ![Logo du projet](https://github.com/lacroixlucas59/guide/blob/master/public/favicon.png)
@@ -10,7 +10,7 @@
 
 git pull                                      
 
-(start wamp or xamp)                          
+(démarrer Wamp ou Xamp)                          
 
 php artisan serve                             
 
