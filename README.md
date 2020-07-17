@@ -2,7 +2,7 @@
 ## Sauvegarde de Guide
 
 
-![GitHub Logo](https://github.com/lacroixlucas59/audioguide/blob/master/public/favicon.png)
+![Logo du projet](https://github.com/lacroixlucas59/guide/blob/master/public/favicon.png)
 
 
 
